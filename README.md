@@ -1,2 +1,2 @@
 # python
-víboras venenosas mortais assassinas
+víboras venenosas mortais assassinas pítons
