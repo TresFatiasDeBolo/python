@@ -20,5 +20,13 @@ print("2 - Listar Pizzaria")
 print("3 - Ativar Pizzaria")
 print("4 - Sair")
 
-opcao_escolhida = input('Escolha uma opção: ')
-print(f"Você escolhe a opção {opcao_escolhida}")
+opcao_escolhida = int(input('Escolha uma opção: '))
+
+if opcao_escolhida == 1:
+    print('Cadastrar pizzaria')
+elif opcao_escolhida == 2:
+    print('Listar pizzaria')
+elif opcao_escolhida == 3:
+    print('Ativar pizzaria')
+else:
+ print('Encerrando programa')
